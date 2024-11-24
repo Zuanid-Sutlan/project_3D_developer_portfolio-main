@@ -17,6 +17,12 @@ import {
   docker,
   meta,
   starbucks,
+  cryptotracker,
+  calculator,
+  forexfusion,
+  tyrosoft,
+  client,
+  playaxis,
   tesla,
   shopify,
   carrent,
@@ -122,11 +128,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Android Developer",
+    company_name: "Play-Axis",
+    icon: playaxis,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jan 2024 - May 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -135,11 +141,11 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Work for Client Apps",
+    company_name: "Person",
+    icon: client,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "May 2024 - Aug 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -148,9 +154,9 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Android Developer",
+    company_name: "TyroSoft",
+    icon: tyrosoft,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
@@ -160,19 +166,19 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
@@ -204,67 +210,71 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Trading Signal App With Admin Panel",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "react",
+        name: "Kotlin",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Jetpack Compose",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Firebase",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: forexfusion,
+    source_code_link: "https://github.com/Zuanid-Sutlan/TradingSignalsApp",
   },
   {
-    name: "Job IT",
+    name: "Simple Calculator With Custom UI",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
-        name: "react",
+        name: "Jetpack Compose",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Kotlin",
         color: "green-text-gradient",
       },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      // {
+      //   name: "scss",
+      //   color: "pink-text-gradient",
+      // },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: calculator,
+    source_code_link: "https://github.com/Zuanid-Sutlan/BasicCalculator",
   },
   {
-    name: "Trip Guide",
+    name: "Simple CryptoTracker",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "CoinMarketCap Api",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Retrofit",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Kotlin",
         color: "pink-text-gradient",
       },
+      {
+        name: "Jetpack Compose",
+        color: "green-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: cryptotracker,
+    source_code_link: "https://github.com/Zuanid-Sutlan/CryptoTracker",
   },
 ];
 

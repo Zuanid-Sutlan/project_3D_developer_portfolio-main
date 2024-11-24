@@ -24,6 +24,12 @@ import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
+import cryptotracker from "./cryptotracker.png";
+import calculator from "./calculator.png";
+import forexfusion from "./forexfusion.png";
+import tyrosoft from "./company/tyrosoft.png";
+import client from "./company/client.png";
+import playaxis from "./company/playaxis.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
@@ -62,6 +68,12 @@ export {
   meta,
   shopify,
   starbucks,
+  cryptotracker,
+  calculator,
+  forexfusion,
+  tyrosoft,
+  client,
+  playaxis,
   tesla,
   carrent,
   jobit,

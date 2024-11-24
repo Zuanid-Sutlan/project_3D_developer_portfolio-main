@@ -61,6 +61,14 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+            <li
+               key={"whatsapp"}
+               onClick={() => setActive(nav.title)}
+            >
+              <a href={`https://wa.me/923474293781`} target="_blank" rel="noopener noreferrer">
+                {"Whatsapp"}
+              </a>
+            </li>
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
@@ -91,6 +99,14 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+               <li
+               key={"whatsapp"}
+               onClick={() => setActive(nav.title)}
+            >
+              <a href={`https://wa.me/923474293781`} target="_blank" rel="noopener noreferrer">
+                {"Whatsapp"}
+              </a>
+            </li>
             </ul>
           </div>
         </div>
